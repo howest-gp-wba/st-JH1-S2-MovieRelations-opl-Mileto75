@@ -34,6 +34,12 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//custom route to handle areas by convention
+app.MapControllerRoute(
+    name: "AdminArea",
+    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
+    );
+//most generic route 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
