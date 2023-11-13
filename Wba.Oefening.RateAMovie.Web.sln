@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wba.Oefening.RateAMovie.Web", "Wba.Oefening.RateAMovie.Web\Wba.Oefening.RateAMovie.Web.csproj", "{DE42C613-87C4-4488-9806-A9605C649AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wba.Oefening.RateAMovie.Core", "Wba.Oefening.RateAMovie.Core\Wba.Oefening.RateAMovie.Core.csproj", "{4FDE2695-6945-400E-A49E-6FC7C79FBFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE42C613-87C4-4488-9806-A9605C649AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE42C613-87C4-4488-9806-A9605C649AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE42C613-87C4-4488-9806-A9605C649AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE42C613-87C4-4488-9806-A9605C649AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDE2695-6945-400E-A49E-6FC7C79FBFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDE2695-6945-400E-A49E-6FC7C79FBFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDE2695-6945-400E-A49E-6FC7C79FBFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDE2695-6945-400E-A49E-6FC7C79FBFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE64C7F-9D6A-4AEF-AE82-9B2A74113CE9}
+	EndGlobalSection
+EndGlobal
